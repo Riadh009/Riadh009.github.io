@@ -1,0 +1,111 @@
+.still {
+	font-style: italic;
+}
+
+.blue {
+	color: blue;
+}
+
+* {
+	text-align: left;
+	color: #444;
+}
+
+body {
+	margin: 40px auto;
+	max-width: 650px;
+	line-height: 1.6;
+	font-size: 18px;
+	color: #444;
+	padding: 010px;
+	background-color: white;
+}
+
+
+li {
+	font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+	line-height: 1.2;
+}
+
+.titlepopup {
+	color: rgb(0, 0, 14);
+}
+
+.clickme {
+	background-color: rgb(82, 151, 230);
+	padding: 0.5em 1em;
+	font-size: 14pt;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	position: relative;
+	margin-left: auto;
+}
+
+.clickme:hover {
+	background-color: gainsboro;
+}
+
+.cancel {
+	background-color: rgb(70, 68, 68);
+	padding: 0.5em 1em;
+	font-size: 14pt;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	position: relative;
+	margin-right: auto;
+}
+
+.cancel:hover {
+	background-color: gainsboro;
+}
+
+.overlay {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.popup {
+	position: relative;
+	margin: 0 auto;
+	top: 25%;
+	width: 50%;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	box-shadow: 15px 20px 0 rgba(0.50, 0, 0, );
+	padding: 1em;
+}
+
+
+.modePsychédélique {
+	background-color:chartreuse; 
+	color: black; 
+	font-family: 'Times New Roman'; 
+	cursor: pointer;
+	position: relative;
+	margin-right: auto;
+	right: 0;
+	padding: 0.3em 0.8em;
+	font-size: 12pt;
+}
+
+.changing1 {
+	color : green;
+	font-Family : "Comic Sans MS";
+	background-color : magenta;
+}
+
+.changing2 {
+	color : blue;
+    font-Family : "courier";
+
+}
